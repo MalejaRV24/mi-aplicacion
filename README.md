@@ -49,7 +49,7 @@ git clone https://github.com/MalejaRV24/mi-aplicacion.git
 Sientete libre de hacer un fork y contribuir a este proyecto.
 
 ## Resultados
-La aplicación muestra un `"¡Hola, mundo!"´ en el navegador cuando se accedió en el puerto 3000.
+La aplicación muestra un "¡Hola, mundo!" en el navegador cuando se accedió en el puerto 3000.
 
 ## Desafios y soluciones
 Problema: No se pudo iniciar el contenedor porque el puerto 3000 ya estaba en uso.
