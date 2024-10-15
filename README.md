@@ -18,6 +18,7 @@ El objetivo de este laboratorio es construir y desplegar una aplicación simple 
     docker run -p 3000:3000 mi-aplicacion
    
 Accedí a la aplicación en http://localhost:3000.
+
 7. Subida a Docker Hub:
    
     docker tag mi-aplicacion [tu-usuario]/mi-aplicacion:latest
