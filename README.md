@@ -11,11 +11,14 @@ El objetivo de este laboratorio es construir y desplegar una aplicación simple 
 1. Instalación de Docker: Instalé Docker siguiendo las instrucciones de la documentación oficial.
 2. Creación de la Aplicación: Creé un directorio llamado mi-aplicacion, dentro del cual se encuentran los archivos Dockerfile, app.js, y package.json.
 3. Construcción de la Imagen:
+   
     docker build -t mi-aplicacion 
-4. Ejecución de la Aplicación:
+5. Ejecución de la Aplicación:
+   
     docker run -p 3000:3000 mi-aplicacion
+   
 Accedí a la aplicación en http://localhost:3000.
-5. Subida a Docker Hub:
+7. Subida a Docker Hub:
    
     docker tag mi-aplicacion [tu-usuario]/mi-aplicacion:latest
    
@@ -29,12 +32,14 @@ Accedí a la aplicación en http://localhost:3000.
 git clone https://github.com/MalejaRV24/mi-aplicacion.git
 
 2. Navega al directorio de la aplicación:
+   
 cd mi-aplicacion
 
-3. Ejecuta la aplicación usando Docker:
+4. Ejecuta la aplicación usando Docker:
+   
 docker run -p 3000:3000 [tu-usuario]/mi-aplicacion
 
-4. Accede a la aplicación en tu navegador en `http://localhost:3000`.
+6. Accede a la aplicación en tu navegador en `http://localhost:3000`.
 
 ## Contribuciones
 
