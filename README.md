@@ -1,4 +1,4 @@
-# Documentación del Laboratorio de Docker: Mi Aplicación
+# DOCUMENTACIÓN DEL LABORATORIO 1 (DOCKER): mi-aplicacion
 
 # Objetivo
 El objetivo de este laboratorio es construir y desplegar una aplicación simple utilizando Docker. 
@@ -16,11 +16,12 @@ El objetivo de este laboratorio es construir y desplegar una aplicación simple 
     docker run -p 3000:3000 mi-aplicacion
 Accedí a la aplicación en http://localhost:3000.
 5. Subida a Docker Hub:
-    docker tag mi-aplicacion malejarv24/mi-aplicacion:latest
+   
+    docker tag mi-aplicacion [tu-usuario]/mi-aplicacion:latest
    
     docker login
    
-    docker push malejarv24/mi-aplicacion:latest
+    docker push [tu-usuario]/mi-aplicacion:latest
    
 ## Instrucciones para Ejecutar
 
@@ -44,6 +45,7 @@ La aplicación muestra un "¡Hola, mundo!" en el navegador cuando se accedió en
 
 ## Desafios y soluciones
 Problema: No se pudo iniciar el contenedor porque el puerto 3000 ya estaba en uso.
+
 Solución: Usé el comando sudo lsof -i :3000 para identificar el proceso en uso y lo detuve.
 
 # Lecciones aprendidas
