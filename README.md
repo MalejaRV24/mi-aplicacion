@@ -19,13 +19,13 @@ El objetivo de este laboratorio es construir y desplegar una aplicación simple 
    
 Accedí a la aplicación en http://localhost:3000.
 
-5 Subida a Docker Hub:
+5. Subida a Docker Hub:
    
-    docker tag mi-aplicacion [tu-usuario]/mi-aplicacion:latest
+       docker tag mi-aplicacion [tu-usuario]/mi-aplicacion:latest
+    
+       docker login
    
-    docker login
-   
-    docker push [tu-usuario]/mi-aplicacion:latest
+       docker push [tu-usuario]/mi-aplicacion:latest
    
 ## Instrucciones para Ejecutar
 
